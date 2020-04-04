@@ -18,7 +18,5 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/ui-buttons', 'TesteController@index')->name('ui-buttons.index');
 
-/*Route::get('/', function() {
-    return view('home');
-})->name('home');*/
